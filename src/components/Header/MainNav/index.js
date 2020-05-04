@@ -4,20 +4,12 @@ import * as Styled from './styles'
 
 const mainNavItems = [
   {
-    title: 'About Me',
+    title: 'Offener Brief',
     slug: '/'
   },
   {
-    title: 'Resume',
-    slug: '/resume/'
-  },
-  {
-    title: 'Blog',
-    slug: '/blog/'
-  },
-  {
-    title: 'Contact Me',
-    slug: '/contact/'
+    title: 'Impressum',
+    slug: '/imprint/'
   }
 ]
 

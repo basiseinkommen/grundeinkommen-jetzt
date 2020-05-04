@@ -4,7 +4,7 @@ import Layout from 'components/Layout'
 import Seo from 'components/Seo'
 import ContactInfo from 'components/ContactInfo'
 
-const ContactPage = () => {
+const ImprinttPage = () => {
   return (
     <Layout>
       <Seo title='Contact' />
@@ -13,4 +13,4 @@ const ContactPage = () => {
   )
 }
 
-export default ContactPage
+export default ImprinttPage
