@@ -23,7 +23,7 @@ const MainNav = () => {
           <Styled.MainNavItem
             key={`nav-item-${index}`}
             to={item.slug}
-            activeClassName='active'
+            activeClassName="active"
             whileTap={{ scale: 0.9 }}
           >
             {item.title}

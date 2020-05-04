@@ -18,19 +18,22 @@ const BlogPost = ({ data, pageContext }) => {
     <Layout>
       <Seo title={post.frontmatter.title} />
       <Container section>
-        <TitleSection title={post.frontmatter.date} subtitle={post.frontmatter.title} />
+        <TitleSection
+          title={post.frontmatter.date}
+          subtitle={post.frontmatter.title}
+        />
         <FormatHtml content={post.html} />
         <Styled.Links>
           <span>
             {previous && (
-              <Link to={previous.fields.slug} rel='previous'>
+              <Link to={previous.fields.slug} rel="previous">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </span>
           <span>
             {next && (
-              <Link to={next.fields.slug} rel='next'>
+              <Link to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
               </Link>
             )}

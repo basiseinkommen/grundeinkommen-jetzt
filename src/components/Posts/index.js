@@ -19,7 +19,9 @@ const Posts = () => {
         }
       }
       allMarkdownRemark(
-        filter: { frontmatter: { category: { eq: "blog" }, published: { eq: true } } }
+        filter: {
+          frontmatter: { category: { eq: "blog" }, published: { eq: true } }
+        }
         sort: { fields: frontmatter___date, order: DESC }
       ) {
         edges {
@@ -53,7 +55,11 @@ const Posts = () => {
 
   return (
     <Container section>
-      <TitleSection title={sectionTitle.title} subtitle={sectionTitle.subtitle} center />
+      <TitleSection
+        title={sectionTitle.title}
+        subtitle={sectionTitle.subtitle}
+        center
+      />
       <Styled.Posts>
         {posts.map((item) => {
           const {
@@ -65,7 +71,10 @@ const Posts = () => {
           return (
             <Styled.Post key={id}>
               <Link to={slug}>
-                <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 1 }}>
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 1 }}
+                >
                   <Styled.Card>
                     <Styled.Image>
                       <Img fluid={cover.childImageSharp.fluid} alt={title} />

@@ -8,7 +8,7 @@ import Skills from 'components/Skills'
 
 const ResumePage = () => (
   <Layout>
-    <Seo title='Resume' />
+    <Seo title="Resume" />
     <Experience />
     <hr />
     <Education />

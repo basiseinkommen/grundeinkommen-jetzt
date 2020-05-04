@@ -14,13 +14,17 @@ const Carousel = Loadable(() => import('components/ui/Carousel'))
 const Testimonials = () => {
   const { markdownRemark, allMarkdownRemark } = useStaticQuery(graphql`
     query {
-      markdownRemark(frontmatter: { category: { eq: "testimonials section" } }) {
+      markdownRemark(
+        frontmatter: { category: { eq: "testimonials section" } }
+      ) {
         frontmatter {
           title
           subtitle
         }
       }
-      allMarkdownRemark(filter: { frontmatter: { category: { eq: "testimonials" } } }) {
+      allMarkdownRemark(
+        filter: { frontmatter: { category: { eq: "testimonials" } } }
+      ) {
         edges {
           node {
             id
@@ -46,7 +50,11 @@ const Testimonials = () => {
 
   return (
     <Container section>
-      <TitleSection title={sectionTitle.title} subtitle={sectionTitle.subtitle} center />
+      <TitleSection
+        title={sectionTitle.title}
+        subtitle={sectionTitle.subtitle}
+        center
+      />
       <Styled.Testimonials>
         <Carousel>
           {testimonials.map((item) => {

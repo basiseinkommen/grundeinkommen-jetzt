@@ -16,7 +16,10 @@ const ConctactInfo = () => {
           subtitle
         }
       }
-      allMarkdownRemark(filter: { frontmatter: { category: { eq: "contact" } } }, sort: { fields: fileAbsolutePath }) {
+      allMarkdownRemark(
+        filter: { frontmatter: { category: { eq: "contact" } } }
+        sort: { fields: fileAbsolutePath }
+      ) {
         edges {
           node {
             id
@@ -36,7 +39,11 @@ const ConctactInfo = () => {
 
   return (
     <Container section>
-      <TitleSection title={sectionTitle.title} subtitle={sectionTitle.subtitle} center />
+      <TitleSection
+        title={sectionTitle.title}
+        subtitle={sectionTitle.subtitle}
+        center
+      />
       {contacts.map((item) => {
         const {
           id,

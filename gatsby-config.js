@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: '#GrundeinkommenJetzt',
-    description: 'Gatsby Markdown Personal Website Starter, using Styled Components, Tailwindcss and Framer Motion.',
+    description:
+      'Gatsby Markdown Personal Website Starter, using Styled Components, Tailwindcss and Framer Motion.',
     author: 'Saimir Kapaj'
   },
   plugins: [

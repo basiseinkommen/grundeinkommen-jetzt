@@ -40,7 +40,10 @@ const Experience = () => {
 
   return (
     <Container section>
-      <TitleSection title={sectionTitle.title} subtitle={sectionTitle.subtitle} />
+      <TitleSection
+        title={sectionTitle.title}
+        subtitle={sectionTitle.subtitle}
+      />
 
       {experiences.map((item) => {
         const {

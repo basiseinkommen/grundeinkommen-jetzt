@@ -17,7 +17,7 @@ const Logo = () => {
   const logoTitle = site.siteMetadata.title
 
   return (
-    <Styled.Logo to='/'>
+    <Styled.Logo to="/">
       <Styled.Text>{logoTitle}</Styled.Text>
     </Styled.Logo>
   )

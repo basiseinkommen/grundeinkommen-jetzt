@@ -7,7 +7,7 @@ import ContactInfo from 'components/ContactInfo'
 const ImprinttPage = () => {
   return (
     <Layout>
-      <Seo title='Contact' />
+      <Seo title="Contact" />
       <ContactInfo />
     </Layout>
   )
