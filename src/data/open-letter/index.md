@@ -6,11 +6,11 @@ title: 'Berlin, Alt Tellin, Zossen, Leipzig und Köln, den 05. Mai 2020'
 
 Sehr geehrte Abgeordnete des Petitionsausschusses des Deutsches Bundestags,
 
-176.134 Menschen fordern mit ihrer Unterschrift unter der Petition 108191 ein existenzsicherndes Grundeinkommen
+176.134 Menschen fordern mit ihrer Unterschrift unter der [Petition 108191](https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html) ein existenzsicherndes Grundeinkommen
 für die Dauer der Coronakrise. Damit wird diese Petition von mehr Menschen unterstützt als jede
 andere Online-Petition an den Deutschen Bundestag zuvor.
 
-In dieser und zwei weiteren Petitionen, die wir unabhängig voneinander angestoßen haben, sprechen sich
+In dieser und [zwei](https://www.change.org/p/finanzminister-olaf-scholz-und-wirtschaftsminister-peter-altmaier-mit-dem-bedingungslosen-grundeinkommen-durch-die-coronakrise-coronavirusde-olafscholz-peteraltmaier-bmas-bund-hubertus-heil) [weiteren](https://www.openpetition.de/petition/online/hilfen-fuer-freiberufler-und-kuenstler-waehrend-des-corona-shutdowns-2) Petitionen, die wir unabhängig voneinander angestoßen haben, sprechen sich
 bis heute insgesamt mehr als 785.000 Unterzeichnende für ein befristetes Krisen-Grundeinkommen aus.
 Dies ist keine Forderung Einzelner, sondern Ausdruck einer breiten, gesellschaftlichen Bewegung.
 
@@ -24,7 +24,6 @@ Krisen-Grundeinkommens für Alle so schnell wie möglich auf die politische Tage
 Wir alle sind die Wirtschaft, wir alle sind der Staat, wir alle sind die Gesellschaft. Viele Menschen, die bislang
 zu oft übersehen wurden, erkennen wir jetzt als systemrelevant: ihre Arbeit in der Pflege, an den Kassen und
 Regalen der Lebensmittelgeschäfte, in der unbezahlten Betreuung und Unterstützung von Kindern, Familie und Nachbarn.
-
 Sie alle brauchen jetzt ein Signal von Ihnen, dass ihr Beitrag zum Durchstehen der Coronakrise gesehen und
 wertgeschätzt wird. Alle brauchen jetzt finanzielle Sicherheit und die Gewissheit, dass unsere Regierung auch
 in schweren Zeiten für alle da ist.
@@ -32,9 +31,9 @@ in schweren Zeiten für alle da ist.
 Die bisher beschlossenen Finanzhilfen sind ein großer Schritt in die richtige Richtung – aber sie erzeugen bei
 vielen Menschen anstelle von Sicherheit ein Gefühl der Verunsicherung, weil ihnen die Regeln zur Berechtigung
 oder Rückzahlung unklar sind. Andere Menschen fallen komplett durch das Hilfenetz, trotz der Bemühungen Ihrerseits,
-diese Lückenzu schließen.
+diese Lücken zu schließen.
 
-**Sie haben mit der schnellstmöglichenAnhörung dieser Petition am 15. Juni 2020 im Deutschen Bundestag die Chance,
+**Sie haben mit der schnellstmöglichen Anhörung dieser Petition am 15. Juni 2020 im Deutschen Bundestag die Chance,
 das vielleicht wichtigste Zeichen in dieser Krise zu setzen:**
 
-**„Wir setzen uns nicht nur für Unternehmen ein, sondern für jedeneinzelnen Menschen.“**
+**„Wir setzen uns nicht nur für Unternehmen ein, sondern für jeden einzelnen Menschen.“**
