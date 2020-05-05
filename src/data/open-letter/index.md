@@ -37,3 +37,12 @@ diese Lücken zu schließen.
 das vielleicht wichtigste Zeichen in dieser Krise zu setzen:**
 
 **„Wir setzen uns nicht nur für Unternehmen ein, sondern für jeden einzelnen Menschen.“**
+
+Mit freundlichen Grüßen
+
+Tonia Merz (Petentin auf [change.org](https://change.org/grundeinkommen)),  
+David Erler (Petent auf [openpetition.de](https://openpetition.de/!coronahilfe)),  
+Susanne Wiest (Petentin der [Bundestagsleitpetition 108191](https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html)),  
+Hiltrud Preuß (Petentin der Bundestagspetition 108283, zusammengelegt mit [108191](https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html)),  
+Volkmar Kreiß (Petent der Bundestagspetition 108450, zusammengelegt mit [108191](https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html)),  
+Vivien Putzmann (Petentin der Bundestagspetition 108586, zusammengelegt mit [108191](https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html))
