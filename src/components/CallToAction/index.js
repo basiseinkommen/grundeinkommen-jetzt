@@ -1,40 +1,60 @@
+import mailtoLink from 'mailto-link'
+
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 
+import { Link } from 'components/ui/Button'
 import Container from 'components/ui/Container'
-import Button from 'components/ui/Button'
 import TitleSection from 'components/ui/TitleSection'
 
 import * as Styled from './styles'
 
 const CallToAction = () => {
-  const { markdownRemark } = useStaticQuery(graphql`
+  const { markdownRemark, allMarkdownRemark } = useStaticQuery(graphql`
     query {
       markdownRemark(frontmatter: { category: { eq: "call to action" } }) {
         frontmatter {
           title
           subtitle
           submitPlaceholder
+          mailTo
+          mailSubject
         }
-        html
+        internal {
+          content
+        }
+      }
+      allMarkdownRemark(
+        filter: { frontmatter: { category: { eq: "petitioners" } } }
+        sort: { fields: frontmatter___order }
+      ) {
+        edges {
+          node {
+            frontmatter {
+              title
+            }
+          }
+        }
       }
     }
   `)
 
-  const callToAction = markdownRemark
+  const {
+    frontmatter: { title, subtitle, submitPlaceholder, mailTo: to, mailSubject: subject },
+    internal: { content }
+  } = markdownRemark
+  const first = allMarkdownRemark.edges.map(p => p.node.frontmatter.title)
+  const last = first.pop()
+  const body = content.replace('#{PETITIONERS}', `${first.join(', ')} und ${last}`).trim()
 
   return (
     <Styled.CallToAction>
       <Container section>
-        <TitleSection
-          title={callToAction.frontmatter.title}
-          subtitle={callToAction.frontmatter.subtitle}
-          center
-        />
+        <TitleSection title={title} subtitle={subtitle} center />
         <Styled.Form>
-          <Button primary block>
-            {callToAction.frontmatter.submitPlaceholder}
-          </Button>
+          <Link primary block href={mailtoLink({ to, subject, body})}>
+            {submitPlaceholder}
+          </Link>
         </Styled.Form>
       </Container>
     </Styled.CallToAction>

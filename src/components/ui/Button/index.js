@@ -21,3 +21,20 @@ Button.propTypes = {
 }
 
 export default Button
+
+export const Link = ({ children, ...props }) => (
+  <Styled.Link
+    {...props}
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+  >
+    {children}
+  </Styled.Link>
+)
+
+Link.propTypes = {
+  href: PropTypes.string,
+  primary: PropTypes.bool,
+  block: PropTypes.bool,
+  children: PropTypes.any.isRequired
+}

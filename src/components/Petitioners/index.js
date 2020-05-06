@@ -14,9 +14,7 @@ const Carousel = Loadable(() => import('components/ui/Carousel'))
 const Petitioners = () => {
   const { markdownRemark, allMarkdownRemark } = useStaticQuery(graphql`
     query {
-      markdownRemark(
-        frontmatter: { category: { eq: "petitioners section" } }
-      ) {
+      markdownRemark(frontmatter: { category: { eq: "petitioners section" } }) {
         frontmatter {
           title
           subtitle
@@ -25,7 +23,6 @@ const Petitioners = () => {
       allMarkdownRemark(
         filter: { frontmatter: { category: { eq: "petitioners" } } }
         sort: { fields: frontmatter___order }
-
       ) {
         edges {
           node {
