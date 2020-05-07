@@ -20,7 +20,6 @@ const Mail = () => {
           submitPlaceholder
           note
           mailTo
-          mailSubject
         }
         internal {
           content
@@ -48,8 +47,7 @@ const Mail = () => {
       instructions,
       submitPlaceholder,
       note,
-      mailTo: to,
-      mailSubject: subject
+      mailTo: to
     },
     internal: { content }
   } = markdownRemark
@@ -65,7 +63,7 @@ const Mail = () => {
         <TitleSection title={title} subtitle={subtitle} center />
         <Styled.Form>
           <Styled.MailInstructions>{instructions}</Styled.MailInstructions>
-          <Link id='mach-mit' primary href={mailtoLink({ to, subject, body })}>
+          <Link id='mach-mit' primary href={mailtoLink({ to, body })}>
             {submitPlaceholder}
           </Link>
           <Styled.MailNote>{note}</Styled.MailNote>
