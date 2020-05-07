@@ -5,4 +5,4 @@ title: 'David Erler'
 order: 2
 ---
 
-Petent auf [openpetition.de](https://openpetition.de/!coronahilfe)
+<q>**#GrundeinkommenJetzt**, weil außergewöhnliche Zeiten außergewöhnliche Lösungen brauchen.</q>
