@@ -8,8 +8,8 @@ const mainNavItems = [
     slug: '/'
   },
   {
-    title: 'Impressum',
-    slug: '/imprint/'
+    title: 'Mach mit!',
+    slug: '/#mach-mit'
   }
 ]
 
