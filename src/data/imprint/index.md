@@ -5,13 +5,18 @@ subtitle: 'Impressum'
 
 ### Angaben gemäß § 5 TMG
 
-Timo Uhlmann  
-Krankenhausstraße 1 / 315  
-89231 Neu-Ulm
+Vertrauensgesellschaft e.V.  
+Isarstrasse 11  
+12053 Berlin
 
-### Kontakt
+### Postadresse
 
-E-Mail: basiseinkommen.jetzt@gmail.com
+Expedition Grundeinkommen  
+Karl-Marx-Strasse 50  
+12043 Berlin
+
+**Vertreten durch:**  
+Johannes Ponader (Vorstand)
 
 ### Haftung für Inhalte
 
