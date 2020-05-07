@@ -1,7 +1,7 @@
 ---
 category: 'supporters'
 subtitle: 'Unser Anliegen wird unterstützt von'
-title: 'Unterstützer'
+title: 'Unterstützer:innen'
 ---
 
 - Adrienne Goehler, _Aktivistin und Publizistin zum Bedingungslosen Grundauskommen als Menschenrecht_
