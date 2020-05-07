@@ -5,12 +5,10 @@ import Container from 'components/ui/Container'
 import TitleSection from 'components/ui/TitleSection'
 import FormatHtml from 'components/utils/FormatHtml'
 
-const SocialMediaMaterials = () => {
+const Supporters = () => {
   const { markdownRemark } = useStaticQuery(graphql`
     query {
-      markdownRemark(
-        frontmatter: { category: { eq: "social media materials" } }
-      ) {
+      markdownRemark(frontmatter: { category: { eq: "supporters" } }) {
         frontmatter {
           title
           subtitle
@@ -33,4 +31,4 @@ const SocialMediaMaterials = () => {
   )
 }
 
-export default SocialMediaMaterials
+export default Supporters

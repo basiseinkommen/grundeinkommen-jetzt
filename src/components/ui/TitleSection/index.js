@@ -7,8 +7,12 @@ const TitleSection = ({ id, center, title, subtitle }) => (
   <Styled.TitleSection>
     {(() => {
       if (id != null) {
-        return <a id={id} href={`#${id}`}>&nbsp;</a>
-      } 
+        return (
+          <a id={id} href={`#${id}`}>
+            &nbsp;
+          </a>
+        )
+      }
     })()}
     {subtitle && <Styled.SubTitle center={center}>{title}</Styled.SubTitle>}
     <Styled.Title center={center}>{subtitle}</Styled.Title>

@@ -28,7 +28,6 @@ Richte deine Posts gern direkt an die Abgeordneten des Petitionsausschusses. Unt
 
 ![](social-media/Instgram-Facebook-Story/Story_GrundeinkommenJetzt_ohneLogo.png)
 
-
 **Twitter**
 
 ![](social-media/Twitter/Twitter_GrundeinkommenJetzt_Autos_ohneLogo.png)

@@ -5,6 +5,7 @@ import Seo from 'components/Seo'
 import OpenLetter from 'components/OpenLetter'
 import Petitioners from 'components/Petitioners'
 import CallToAction from 'components/CallToAction'
+import Supporters from 'components/Supporters'
 
 const IndexPage = () => {
   return (
@@ -13,6 +14,7 @@ const IndexPage = () => {
       <OpenLetter />
       <Petitioners />
       <CallToAction />
+      <Supporters />
     </Layout>
   )
 }
