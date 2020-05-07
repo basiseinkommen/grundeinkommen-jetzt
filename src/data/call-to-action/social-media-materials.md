@@ -20,8 +20,6 @@ subtitle: 'Social Media Materialien'
 
 **Instagram / Facebook Story**
 
-![](social-media/Instgram-Facebook-Story/Story_GrundeinkommenJetzt_Hintergrund_ohneLogo.png)
-
 ![](social-media/Instgram-Facebook-Story/Story_GrundeinkommenJetzt_Krise_ohneLogo.png)
 
 ![](social-media/Instgram-Facebook-Story/Story_GrundeinkommenJetzt_ohneLogo.png)
