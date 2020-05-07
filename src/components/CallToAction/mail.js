@@ -65,7 +65,7 @@ const Mail = () => {
         <TitleSection title={title} subtitle={subtitle} center />
         <Styled.Form>
           <Styled.MailInstructions>{instructions}</Styled.MailInstructions>
-          <Link primary href={mailtoLink({ to, subject, body })}>
+          <Link id='mach-mit' primary href={mailtoLink({ to, subject, body })}>
             {submitPlaceholder}
           </Link>
           <Styled.MailNote>{note}</Styled.MailNote>
