@@ -28,7 +28,7 @@ const Intro = () => {
   return (
     <Styled.Intro>
       <Container section>
-        <TitleSection title={title} subtitle={subtitle} center />
+        <TitleSection id='mach-mit' title={title} subtitle={subtitle} center />
         <FormatHtml content={html} />
       </Container>
     </Styled.Intro>
