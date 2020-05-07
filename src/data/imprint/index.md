@@ -15,6 +15,8 @@ Expedition Grundeinkommen
 Karl-Marx-Strasse 50  
 12043 Berlin
 
+[info@expedition-grundeinkommen.de](mailto:info@expedition-grundeinkommen.de)
+
 **Vertreten durch:**  
 Johannes Ponader (Vorstand)
 
