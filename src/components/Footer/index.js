@@ -16,6 +16,7 @@ const Footer = () => (
           GitHub
         </Styled.Link>
         <Styled.Link href="/imprint">Impressum</Styled.Link>
+        <Styled.Link href="/privacy">Datenschutz</Styled.Link>
       </Styled.Links>
     </Container>
   </Styled.Footer>

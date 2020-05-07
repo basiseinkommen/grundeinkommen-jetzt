@@ -4,7 +4,7 @@ import Layout from 'components/Layout'
 import Seo from 'components/Seo'
 import Imprint from 'components/Imprint'
 
-const ImprinttPage = () => {
+const ImprintPage = () => {
   return (
     <Layout>
       <Seo title="Impressum" />
@@ -13,4 +13,4 @@ const ImprinttPage = () => {
   )
 }
 
-export default ImprinttPage
+export default ImprintPage

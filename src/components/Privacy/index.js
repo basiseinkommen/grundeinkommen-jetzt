@@ -5,10 +5,10 @@ import Container from 'components/ui/Container'
 import FormatHtml from 'components/utils/FormatHtml'
 import TitleSection from 'components/ui/TitleSection'
 
-const Imprint = () => {
+const Privacy = () => {
   const { markdownRemark } = useStaticQuery(graphql`
     query {
-      markdownRemark(frontmatter: { category: { eq: "imprint" } }) {
+      markdownRemark(frontmatter: { category: { eq: "privacy" } }) {
         frontmatter {
           title
           subtitle
@@ -31,4 +31,4 @@ const Imprint = () => {
   )
 }
 
-export default Imprint
+export default Privacy
