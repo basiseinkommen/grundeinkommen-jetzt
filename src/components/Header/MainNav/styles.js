@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import is from 'styled-is'
 import tw from 'tailwind.macro'
 import { Link } from 'gatsby'
 import { motion } from 'framer-motion'
@@ -11,6 +12,11 @@ export const MainNav = styled.nav`
 export const MainNavItem = motion.custom(styled(Link)`
   ${tw`relative text-indigo-900 border-b border-transparent hover:text-indigo-900 ml-0 sm:ml-8 mt-3 sm:mt-0`};
   width: max-content;
+
+  ${is('emphasized')`
+    font-weight: bold;
+    ${tw`text-pink-500`};
+  `};
 
   &.active {
     ${tw`border-pink-500`};

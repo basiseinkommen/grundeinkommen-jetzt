@@ -9,7 +9,8 @@ const mainNavItems = [
   },
   {
     title: 'Mach mit!',
-    slug: '/#mach-mit'
+    slug: '/#mach-mit',
+    emphasized: true
   }
 ]
 
@@ -23,6 +24,7 @@ const MainNav = () => {
           <Styled.MainNavItem
             key={`nav-item-${index}`}
             to={item.slug}
+            emphasized={item.emphasized}
             activeClassName="active"
             whileTap={{ scale: 0.9 }}
           >
