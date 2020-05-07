@@ -1,5 +1,5 @@
 ---
 category: 'petitioners section'
-title: 'Petitent:innen'
+title: 'Petent:innen'
 subtitle: 'Die Verfasser:innen der Petitionen'
 ---
