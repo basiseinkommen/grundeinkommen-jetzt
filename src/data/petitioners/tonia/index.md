@@ -5,4 +5,4 @@ title: 'Tonia Merz'
 order: 1
 ---
 
-Petentin auf [change.org](https://change.org/grundeinkommen)
+<q>**#GrundeinkommenJetzt**, weil ein Land aus Menschen besteht.</q>
