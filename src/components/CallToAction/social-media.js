@@ -24,10 +24,7 @@ const SocialMedia = () => {
   `)
 
   const {
-    frontmatter: {
-      title,
-      subtitle
-    },
+    frontmatter: { title, subtitle },
     html
   } = markdownRemark
 

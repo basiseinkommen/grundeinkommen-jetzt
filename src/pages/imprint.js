@@ -2,13 +2,13 @@ import React from 'react'
 
 import Layout from 'components/Layout'
 import Seo from 'components/Seo'
-import ContactInfo from 'components/ContactInfo'
+import Imprint from 'components/Imprint'
 
 const ImprinttPage = () => {
   return (
     <Layout>
-      <Seo title="Contact" />
-      <ContactInfo />
+      <Seo title="Impressum" />
+      <Imprint />
     </Layout>
   )
 }

@@ -13,4 +13,8 @@ export default createGlobalStyle`
   p + p {
     ${tw`mt-3`};
   }
+
+  h3 {
+    ${tw`mt-8 mb-4 text-lg font-bold w-full text-left`};
+  }
 `
