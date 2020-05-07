@@ -14,7 +14,7 @@ export default createGlobalStyle`
     ${tw`mt-3`};
   }
 
-  h3 {
+  format-html h3 {
     ${tw`mt-8 mb-4 text-lg font-bold w-full text-left`};
   }
 `
