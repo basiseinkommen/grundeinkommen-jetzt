@@ -9,7 +9,7 @@ import CallToAction from 'components/CallToAction'
 const IndexPage = () => {
   return (
     <Layout>
-      <Seo title="Offener Brief" />
+      <Seo title="Offener Brief an den Petitionsausschuss" />
       <OpenLetter />
       <Petitioners />
       <CallToAction />

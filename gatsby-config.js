@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: '#GrundeinkommenJetzt',
-    description:
-      'Gatsby Markdown Personal Website Starter, using Styled Components, Tailwindcss and Framer Motion.',
-    author: 'Saimir Kapaj'
+    description: 'Mach mit und fordere ein #GrundeinkommenJetzt, weil... ?',
+    author: 'Team #GrundeinkommenJetzt',
+    image: '/images/grundeinkommen-jetzt.jpg'
   },
   plugins: [
     'gatsby-plugin-typescript',

@@ -3,6 +3,11 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 
+import img from '../../../static/images/grundeinkommen-jetzt.png'
+
+const url = 'https://grundeinkommenjetzt.de'
+const image = `${url}${img}`
+
 const Seo = ({ description, lang, meta, title }) => {
   const { site } = useStaticQuery(
     graphql`
@@ -45,8 +50,12 @@ const Seo = ({ description, lang, meta, title }) => {
           content: 'website'
         },
         {
+          property: 'og:image',
+          content: image
+        },
+        {
           name: 'twitter:card',
-          content: 'summary'
+          content: 'summary_large_image'
         },
         {
           name: 'twitter:creator',
@@ -59,6 +68,10 @@ const Seo = ({ description, lang, meta, title }) => {
         {
           name: 'twitter:description',
           content: metaDescription
+        },
+        {
+          property: 'twitter:image:src',
+          content: image
         }
       ].concat(meta)}
     />
