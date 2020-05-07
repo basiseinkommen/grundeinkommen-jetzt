@@ -2,15 +2,13 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 
 import Container from 'components/ui/Container'
-import FormatHtml from 'components/utils/FormatHtml'
 import TitleSection from 'components/ui/TitleSection'
+import FormatHtml from 'components/utils/FormatHtml'
 
-import * as Styled from './styles'
-
-const SocialMedia = () => {
+const SocialMediaMaterials = () => {
   const { markdownRemark } = useStaticQuery(graphql`
     query {
-      markdownRemark(frontmatter: { category: { eq: "social media" } }) {
+      markdownRemark(frontmatter: { category: { eq: "social media materials" } }) {
         frontmatter {
           title
           subtitle
@@ -26,13 +24,14 @@ const SocialMedia = () => {
   } = markdownRemark
 
   return (
-    <Styled.SocialMedia>
-      <Container section>
-        <TitleSection title={title} subtitle={subtitle} center />
-        <FormatHtml content={html} />
-      </Container>
-    </Styled.SocialMedia>
+    <Container section>
+      <TitleSection
+        title={title}
+        subtitle={subtitle}
+      />
+      <FormatHtml content={html} />
+    </Container>
   )
 }
 
-export default SocialMedia
+export default SocialMediaMaterials
