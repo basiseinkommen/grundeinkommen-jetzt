@@ -11,7 +11,7 @@ für die Dauer der Coronakrise. Damit wird diese Petition von mehr Menschen unte
 andere Online-Petition an den Deutschen Bundestag zuvor.
 
 In dieser und [zwei](https://www.change.org/p/finanzminister-olaf-scholz-und-wirtschaftsminister-peter-altmaier-mit-dem-bedingungslosen-grundeinkommen-durch-die-coronakrise-coronavirusde-olafscholz-peteraltmaier-bmas-bund-hubertus-heil) [weiteren](https://www.openpetition.de/petition/online/hilfen-fuer-freiberufler-und-kuenstler-waehrend-des-corona-shutdowns-2) Petitionen, die wir unabhängig voneinander angestoßen haben, sprechen sich
-bis heute insgesamt mehr als 785.000 Unterzeichnende für ein befristetes Krisen-Grundeinkommen aus.
+bis heute insgesamt mehr als 930.000 Unterzeichnende für ein befristetes Krisen-Grundeinkommen aus.
 Dies ist keine Forderung Einzelner, sondern Ausdruck einer breiten, gesellschaftlichen Bewegung.
 
 Sie haben als Mitglieder des Deutschen Bundestages in den letzten Wochen gezeigt, dass die Politik zu
