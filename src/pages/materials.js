@@ -3,13 +3,13 @@ import React from 'react'
 import Layout from 'components/Layout'
 import Seo from 'components/Seo'
 
-import SocialMediaMaterials from 'components/SocialMediaMaterials'
+import Materials from 'components/Materials'
 
 const MaterialsPage = () => {
   return (
     <Layout>
       <Seo title="Social Media Materialien" />
-      <SocialMediaMaterials />
+      <Materials />
     </Layout>
   )
 }

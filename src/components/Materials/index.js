@@ -7,26 +7,24 @@ import TitleSection from 'components/ui/TitleSection'
 
 import * as Styled from './styles'
 
-const Services = () => {
+const Materials = () => {
   const { markdownRemark, allMarkdownRemark } = useStaticQuery(graphql`
     query {
-      markdownRemark(frontmatter: { category: { eq: "services section" } }) {
+      markdownRemark(frontmatter: { category: { eq: "materials" } }) {
         frontmatter {
           title
           subtitle
         }
       }
       allMarkdownRemark(
-        filter: { frontmatter: { category: { eq: "services" } } }
+        filter: { frontmatter: { category: { eq: "facebook/instagram material" } } }
         sort: { fields: fileAbsolutePath }
       ) {
         edges {
           node {
             id
             frontmatter {
-              title
-              icon
-              description
+              image
             }
           }
         }
@@ -62,4 +60,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Materials
